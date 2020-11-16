@@ -2,7 +2,7 @@ import random
 
 count = 0
 while True:
-    a = int(random.choice([2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]))
+    a = int(random.choice([11,12,13,14,15,16,17,18,19]))
     count = count + 1
     print("Count = " + str(count))	
     print(str(a) + " X " + str(a))
