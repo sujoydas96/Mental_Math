@@ -1,6 +1,7 @@
 import random 
 
-while True:
+try:
+    while True:
     for i in range(11,20):
         print(str(i) + " X " + str(i))
         answer = int(input())
@@ -8,5 +9,7 @@ while True:
             print("SUCCESS!!")
         else:
             print("FAIL!! correct answer: " + str(i*i)) 
+except:
+    print("Irrelevent key has been pressed. Exiting Program")
     
     
