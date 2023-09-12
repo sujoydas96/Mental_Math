@@ -2,7 +2,10 @@ import random
 
 try:
     while True:
-        for i in range(21,30):
+        first = int(input("Enter the starting number : "))
+        last = int(input("Enter the ending number : "))
+
+        for i in range(first,last):
             print(str(i) + " X " + str(i))
             answer = int(input())
             if(answer == (i*i)):
